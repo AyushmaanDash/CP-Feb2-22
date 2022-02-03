@@ -11,6 +11,7 @@ int main()
     for (string::iterator it = (username.begin()); it < (username.end()); it++)
     {
         count=0;
+        j=i;
         for (string::iterator jt = it; jt < (username.end()); jt++)
         {
             if (username[i] == username[j])
@@ -30,6 +31,5 @@ int main()
         cout << "IGNORE HIM!";
     else
         cout << "CHAT WITH HER!";
-
     return 0;
 }
